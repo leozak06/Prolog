@@ -1,0 +1,6 @@
+PROLOG
+
+write('Hello World'), nl --- nl = new line
+loves(romeo,juliet). --- romeo loves juliet -- romeo and julet are contants //it is a fact
+to define a rule :- (if)
+loves(juliet,romeo) :- loves (romeo,juliet). -- juliet loves romeo if romeo loves juliet
